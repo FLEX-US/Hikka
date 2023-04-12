@@ -909,7 +909,7 @@ def get_named_platform() -> str:
         return "🦾 GoormIDE"
 
     if main.IS_RAILWAY:
-        return "🚂 Railway"
+       return "🤖 Open AI VDS"
 
     if main.IS_DOCKER:
         return "🐳 Docker"
